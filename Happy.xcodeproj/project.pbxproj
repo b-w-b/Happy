@@ -10,7 +10,6 @@
 		4303E2EF2BF4E4490028D8CE /* HappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E2EE2BF4E4490028D8CE /* HappyApp.swift */; };
 		4303E2F12BF4E4490028D8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E2F02BF4E4490028D8CE /* ContentView.swift */; };
 		4303E2F32BF4E44A0028D8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4303E2F22BF4E44A0028D8CE /* Assets.xcassets */; };
-		4303E2F62BF4E44A0028D8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4303E2F52BF4E44A0028D8CE /* Preview Assets.xcassets */; };
 		4303E3002BF4E44A0028D8CE /* HappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E2FF2BF4E44A0028D8CE /* HappyTests.swift */; };
 		4303E30A2BF4E44A0028D8CE /* HappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E3092BF4E44A0028D8CE /* HappyUITests.swift */; };
 		4303E30C2BF4E44A0028D8CE /* HappyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E30B2BF4E44A0028D8CE /* HappyUITestsLaunchTests.swift */; };
@@ -36,6 +35,19 @@
 		431D3A772BF79E3D006E6A82 /* upload.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A762BF79E3D006E6A82 /* upload.svg */; };
 		431D3A792BF79E67006E6A82 /* smartmonitor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A782BF79E67006E6A82 /* smartmonitor.svg */; };
 		431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */; };
+		43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444982BF7AB4D009F211E /* MiddlePanelView.swift */; };
+		43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4449A2BF7AB7F009F211E /* Recording.swift */; };
+		43A4449D2BF7ABCF009F211E /* recording.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A4449C2BF7ABCF009F211E /* recording.svg */; };
+		43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4449E2BF7AEDE009F211E /* HowYourFeeling.swift */; };
+		43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444A02BF7AF20009F211E /* UploadFeeling.swift */; };
+		43A444A32BF7AF61009F211E /* AddSympton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444A22BF7AF61009F211E /* AddSympton.swift */; };
+		43A444A52BF7AF9D009F211E /* addsympton.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444A42BF7AF9D009F211E /* addsympton.svg */; };
+		43A444A72BF7B010009F211E /* bloodpressure.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444A62BF7B010009F211E /* bloodpressure.svg */; };
+		43A444A92BF7B023009F211E /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444A82BF7B023009F211E /* BloodPressure.swift */; };
+		43A444AB2BF7B0BF009F211E /* DynamicAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444AA2BF7B0BF009F211E /* DynamicAssessment.swift */; };
+		43A444AD2BF7B0FF009F211E /* dynamicassessment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */; };
+		43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444AE2BF7B11C009F211E /* UploadMore.swift */; };
+		43A444B12BF7B152009F211E /* uploadmoreinfo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444B02BF7B152009F211E /* uploadmoreinfo.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +72,6 @@
 		4303E2EE2BF4E4490028D8CE /* HappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyApp.swift; sourceTree = "<group>"; };
 		4303E2F02BF4E4490028D8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4303E2F22BF4E44A0028D8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4303E2F52BF4E44A0028D8CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4303E2FB2BF4E44A0028D8CE /* HappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4303E2FF2BF4E44A0028D8CE /* HappyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTests.swift; sourceTree = "<group>"; };
 		4303E3052BF4E44A0028D8CE /* HappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +99,19 @@
 		431D3A762BF79E3D006E6A82 /* upload.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = upload.svg; path = Happy/images/upload.svg; sourceTree = SOURCE_ROOT; };
 		431D3A782BF79E67006E6A82 /* smartmonitor.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = smartmonitor.svg; path = Happy/images/smartmonitor.svg; sourceTree = SOURCE_ROOT; };
 		431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMonitor.swift; sourceTree = "<group>"; };
+		43A444982BF7AB4D009F211E /* MiddlePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlePanelView.swift; sourceTree = "<group>"; };
+		43A4449A2BF7AB7F009F211E /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		43A4449C2BF7ABCF009F211E /* recording.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recording.svg; path = Happy/images/recording.svg; sourceTree = SOURCE_ROOT; };
+		43A4449E2BF7AEDE009F211E /* HowYourFeeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowYourFeeling.swift; sourceTree = "<group>"; };
+		43A444A02BF7AF20009F211E /* UploadFeeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFeeling.swift; sourceTree = "<group>"; };
+		43A444A22BF7AF61009F211E /* AddSympton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSympton.swift; sourceTree = "<group>"; };
+		43A444A42BF7AF9D009F211E /* addsympton.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addsympton.svg; path = Happy/images/addsympton.svg; sourceTree = SOURCE_ROOT; };
+		43A444A62BF7B010009F211E /* bloodpressure.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bloodpressure.svg; path = Happy/images/bloodpressure.svg; sourceTree = SOURCE_ROOT; };
+		43A444A82BF7B023009F211E /* BloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
+		43A444AA2BF7B0BF009F211E /* DynamicAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAssessment.swift; sourceTree = "<group>"; };
+		43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment.svg; path = Happy/images/dynamicassessment.svg; sourceTree = SOURCE_ROOT; };
+		43A444AE2BF7B11C009F211E /* UploadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMore.swift; sourceTree = "<group>"; };
+		43A444B02BF7B152009F211E /* uploadmoreinfo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = uploadmoreinfo.svg; path = Happy/images/uploadmoreinfo.svg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,26 +168,12 @@
 				4303E2F02BF4E4490028D8CE /* ContentView.swift */,
 				4303E3182BF4E4E60028D8CE /* AllHappyView.swift */,
 				4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */,
-				4303E2F22BF4E44A0028D8CE /* Assets.xcassets */,
-				4303E2F42BF4E44A0028D8CE /* Preview Content */,
 				431D3A5C2BF77852006E6A82 /* UploadView.swift */,
-				431D3A5E2BF77CD7006E6A82 /* UploadLeftView.swift */,
-				431D3A662BF77F28006E6A82 /* ExportReport.swift */,
-				431D3A682BF7839F006E6A82 /* SwitchUser.swift */,
-				431D3A6A2BF78455006E6A82 /* Quit.swift */,
-				431D3A722BF79D7E006E6A82 /* MyRecent.swift */,
-				431D3A742BF79DBD006E6A82 /* INeedUpload.swift */,
-				431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */,
+				43A444962BF7A972009F211E /* LeftPanel */,
+				43A444972BF7AB2A009F211E /* MiddlePanel */,
+				4303E2F22BF4E44A0028D8CE /* Assets.xcassets */,
 			);
 			path = Happy;
-			sourceTree = "<group>";
-		};
-		4303E2F42BF4E44A0028D8CE /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4303E2F52BF4E44A0028D8CE /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4303E2FE2BF4E44A0028D8CE /* HappyTests */ = {
@@ -186,6 +196,11 @@
 		4303E31C2BF4E9690028D8CE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				43A444B02BF7B152009F211E /* uploadmoreinfo.svg */,
+				43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */,
+				43A444A62BF7B010009F211E /* bloodpressure.svg */,
+				43A444A42BF7AF9D009F211E /* addsympton.svg */,
+				43A4449C2BF7ABCF009F211E /* recording.svg */,
 				431D3A782BF79E67006E6A82 /* smartmonitor.svg */,
 				431D3A762BF79E3D006E6A82 /* upload.svg */,
 				431D3A702BF79D6E006E6A82 /* leave.svg */,
@@ -200,6 +215,35 @@
 			);
 			name = images;
 			path = ../images;
+			sourceTree = "<group>";
+		};
+		43A444962BF7A972009F211E /* LeftPanel */ = {
+			isa = PBXGroup;
+			children = (
+				431D3A5E2BF77CD7006E6A82 /* UploadLeftView.swift */,
+				431D3A722BF79D7E006E6A82 /* MyRecent.swift */,
+				431D3A742BF79DBD006E6A82 /* INeedUpload.swift */,
+				431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */,
+				431D3A662BF77F28006E6A82 /* ExportReport.swift */,
+				431D3A682BF7839F006E6A82 /* SwitchUser.swift */,
+				431D3A6A2BF78455006E6A82 /* Quit.swift */,
+			);
+			path = LeftPanel;
+			sourceTree = "<group>";
+		};
+		43A444972BF7AB2A009F211E /* MiddlePanel */ = {
+			isa = PBXGroup;
+			children = (
+				43A444982BF7AB4D009F211E /* MiddlePanelView.swift */,
+				43A4449A2BF7AB7F009F211E /* Recording.swift */,
+				43A4449E2BF7AEDE009F211E /* HowYourFeeling.swift */,
+				43A444A02BF7AF20009F211E /* UploadFeeling.swift */,
+				43A444A22BF7AF61009F211E /* AddSympton.swift */,
+				43A444A82BF7B023009F211E /* BloodPressure.swift */,
+				43A444AA2BF7B0BF009F211E /* DynamicAssessment.swift */,
+				43A444AE2BF7B11C009F211E /* UploadMore.swift */,
+			);
+			path = MiddlePanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,14 +355,18 @@
 				4303E32A2BF4FF760028D8CE /* leftright.svg in Resources */,
 				431D3A6D2BF785DB006E6A82 /* quit.svg in Resources */,
 				4303E3242BF4FDAC0028D8CE /* chen.svg in Resources */,
+				43A444A52BF7AF9D009F211E /* addsympton.svg in Resources */,
 				431D3A632BF77EC3006E6A82 /* switch.svg in Resources */,
 				431D3A772BF79E3D006E6A82 /* upload.svg in Resources */,
+				43A444A72BF7B010009F211E /* bloodpressure.svg in Resources */,
 				431D3A6F2BF78717006E6A82 /* chenqiuping.svg in Resources */,
-				4303E2F62BF4E44A0028D8CE /* Preview Assets.xcassets in Resources */,
 				4303E3262BF4FEAA0028D8CE /* plus.svg in Resources */,
 				431D3A612BF77E47006E6A82 /* download.svg in Resources */,
 				4303E2F32BF4E44A0028D8CE /* Assets.xcassets in Resources */,
+				43A444B12BF7B152009F211E /* uploadmoreinfo.svg in Resources */,
 				4303E3282BF4FEEE0028D8CE /* person.svg in Resources */,
+				43A444AD2BF7B0FF009F211E /* dynamicassessment.svg in Resources */,
+				43A4449D2BF7ABCF009F211E /* recording.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,18 +391,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A444A32BF7AF61009F211E /* AddSympton.swift in Sources */,
 				4303E2F12BF4E4490028D8CE /* ContentView.swift in Sources */,
+				43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */,
 				4303E3192BF4E4E60028D8CE /* AllHappyView.swift in Sources */,
 				431D3A672BF77F28006E6A82 /* ExportReport.swift in Sources */,
 				4303E2EF2BF4E4490028D8CE /* HappyApp.swift in Sources */,
+				43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */,
 				431D3A692BF7839F006E6A82 /* SwitchUser.swift in Sources */,
+				43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */,
 				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
 				431D3A6B2BF78455006E6A82 /* Quit.swift in Sources */,
 				4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */,
 				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
+				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
 				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
 				4303E32C2BF4FFFD0028D8CE /* LeftHealthItem.swift in Sources */,
+				43A444A92BF7B023009F211E /* BloodPressure.swift in Sources */,
 				431D3A752BF79DBD006E6A82 /* INeedUpload.swift in Sources */,
+				43A444AB2BF7B0BF009F211E /* DynamicAssessment.swift in Sources */,
+				43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */,
 				431D3A5F2BF77CD7006E6A82 /* UploadLeftView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,7 +575,7 @@
 				ASSET_PACK_MANIFEST_URL_PREFIX = images;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Happy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = Z57TC53EJU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -549,7 +605,7 @@
 				ASSET_PACK_MANIFEST_URL_PREFIX = images;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Happy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = Z57TC53EJU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

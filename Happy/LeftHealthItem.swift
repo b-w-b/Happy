@@ -13,7 +13,7 @@ struct LeftHealthItem<Content: View>: View {
     var body: some View {
         HStack() {
             VStack(alignment: .leading, spacing: 10) {
-                    content
+                content
                     .font(Font.custom("PingFang SC", size: 16).weight(.semibold))
                     .lineSpacing(16)
                     .foregroundColor(Color(red: 0.08, green: 0.08, blue: 0.08))

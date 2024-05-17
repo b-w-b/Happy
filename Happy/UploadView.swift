@@ -10,10 +10,12 @@ import SwiftUI
 struct UploadView: View {
     var body: some View {
         HStack (){
-           UploadLeftView()
-             .frame(maxWidth: 220)
-             .padding()
-           Divider()
+            UploadLeftView()
+                .frame(maxWidth: 220)
+                .padding()
+            Divider()
+            MiddlePanelView()
+                .frame(maxWidth: 398)
             Text("World")
                 .frame(maxWidth: .infinity)
         }
