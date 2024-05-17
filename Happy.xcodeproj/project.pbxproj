@@ -21,6 +21,21 @@
 		4303E32A2BF4FF760028D8CE /* leftright.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4303E3292BF4FF760028D8CE /* leftright.svg */; };
 		4303E32C2BF4FFFD0028D8CE /* LeftHealthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */; };
 		4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303E32D2BF57F020028D8CE /* HappyWoman.swift */; };
+		431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A5C2BF77852006E6A82 /* UploadView.swift */; };
+		431D3A5F2BF77CD7006E6A82 /* UploadLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A5E2BF77CD7006E6A82 /* UploadLeftView.swift */; };
+		431D3A612BF77E47006E6A82 /* download.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A602BF77E47006E6A82 /* download.svg */; };
+		431D3A632BF77EC3006E6A82 /* switch.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A622BF77EC3006E6A82 /* switch.svg */; };
+		431D3A672BF77F28006E6A82 /* ExportReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A662BF77F28006E6A82 /* ExportReport.swift */; };
+		431D3A692BF7839F006E6A82 /* SwitchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A682BF7839F006E6A82 /* SwitchUser.swift */; };
+		431D3A6B2BF78455006E6A82 /* Quit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A6A2BF78455006E6A82 /* Quit.swift */; };
+		431D3A6D2BF785DB006E6A82 /* quit.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A6C2BF785DB006E6A82 /* quit.svg */; };
+		431D3A6F2BF78717006E6A82 /* chenqiuping.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A6E2BF78717006E6A82 /* chenqiuping.svg */; };
+		431D3A712BF79D6E006E6A82 /* leave.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A702BF79D6E006E6A82 /* leave.svg */; };
+		431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A722BF79D7E006E6A82 /* MyRecent.swift */; };
+		431D3A752BF79DBD006E6A82 /* INeedUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A742BF79DBD006E6A82 /* INeedUpload.swift */; };
+		431D3A772BF79E3D006E6A82 /* upload.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A762BF79E3D006E6A82 /* upload.svg */; };
+		431D3A792BF79E67006E6A82 /* smartmonitor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A782BF79E67006E6A82 /* smartmonitor.svg */; };
+		431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,21 @@
 		4303E3292BF4FF760028D8CE /* leftright.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = leftright.svg; path = Happy/images/leftright.svg; sourceTree = SOURCE_ROOT; };
 		4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftHealthItem.swift; sourceTree = "<group>"; };
 		4303E32D2BF57F020028D8CE /* HappyWoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HappyWoman.swift; path = Happy/HappyWoman.swift; sourceTree = SOURCE_ROOT; };
+		431D3A5C2BF77852006E6A82 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		431D3A5E2BF77CD7006E6A82 /* UploadLeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadLeftView.swift; sourceTree = "<group>"; };
+		431D3A602BF77E47006E6A82 /* download.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = download.svg; path = Happy/images/download.svg; sourceTree = SOURCE_ROOT; };
+		431D3A622BF77EC3006E6A82 /* switch.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = switch.svg; path = Happy/images/switch.svg; sourceTree = SOURCE_ROOT; };
+		431D3A662BF77F28006E6A82 /* ExportReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportReport.swift; sourceTree = "<group>"; };
+		431D3A682BF7839F006E6A82 /* SwitchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchUser.swift; sourceTree = "<group>"; };
+		431D3A6A2BF78455006E6A82 /* Quit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quit.swift; sourceTree = "<group>"; };
+		431D3A6C2BF785DB006E6A82 /* quit.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = quit.svg; path = Happy/images/quit.svg; sourceTree = SOURCE_ROOT; };
+		431D3A6E2BF78717006E6A82 /* chenqiuping.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = chenqiuping.svg; path = Happy/images/chenqiuping.svg; sourceTree = SOURCE_ROOT; };
+		431D3A702BF79D6E006E6A82 /* leave.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = leave.svg; path = Happy/images/leave.svg; sourceTree = SOURCE_ROOT; };
+		431D3A722BF79D7E006E6A82 /* MyRecent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecent.swift; sourceTree = "<group>"; };
+		431D3A742BF79DBD006E6A82 /* INeedUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INeedUpload.swift; sourceTree = "<group>"; };
+		431D3A762BF79E3D006E6A82 /* upload.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = upload.svg; path = Happy/images/upload.svg; sourceTree = SOURCE_ROOT; };
+		431D3A782BF79E67006E6A82 /* smartmonitor.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = smartmonitor.svg; path = Happy/images/smartmonitor.svg; sourceTree = SOURCE_ROOT; };
+		431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +146,14 @@
 				4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */,
 				4303E2F22BF4E44A0028D8CE /* Assets.xcassets */,
 				4303E2F42BF4E44A0028D8CE /* Preview Content */,
+				431D3A5C2BF77852006E6A82 /* UploadView.swift */,
+				431D3A5E2BF77CD7006E6A82 /* UploadLeftView.swift */,
+				431D3A662BF77F28006E6A82 /* ExportReport.swift */,
+				431D3A682BF7839F006E6A82 /* SwitchUser.swift */,
+				431D3A6A2BF78455006E6A82 /* Quit.swift */,
+				431D3A722BF79D7E006E6A82 /* MyRecent.swift */,
+				431D3A742BF79DBD006E6A82 /* INeedUpload.swift */,
+				431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */,
 			);
 			path = Happy;
 			sourceTree = "<group>";
@@ -148,6 +186,13 @@
 		4303E31C2BF4E9690028D8CE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				431D3A782BF79E67006E6A82 /* smartmonitor.svg */,
+				431D3A762BF79E3D006E6A82 /* upload.svg */,
+				431D3A702BF79D6E006E6A82 /* leave.svg */,
+				431D3A6E2BF78717006E6A82 /* chenqiuping.svg */,
+				431D3A6C2BF785DB006E6A82 /* quit.svg */,
+				431D3A622BF77EC3006E6A82 /* switch.svg */,
+				431D3A602BF77E47006E6A82 /* download.svg */,
 				4303E3292BF4FF760028D8CE /* leftright.svg */,
 				4303E3272BF4FEEE0028D8CE /* person.svg */,
 				4303E3252BF4FEAA0028D8CE /* plus.svg */,
@@ -261,10 +306,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431D3A792BF79E67006E6A82 /* smartmonitor.svg in Resources */,
+				431D3A712BF79D6E006E6A82 /* leave.svg in Resources */,
 				4303E32A2BF4FF760028D8CE /* leftright.svg in Resources */,
+				431D3A6D2BF785DB006E6A82 /* quit.svg in Resources */,
 				4303E3242BF4FDAC0028D8CE /* chen.svg in Resources */,
+				431D3A632BF77EC3006E6A82 /* switch.svg in Resources */,
+				431D3A772BF79E3D006E6A82 /* upload.svg in Resources */,
+				431D3A6F2BF78717006E6A82 /* chenqiuping.svg in Resources */,
 				4303E2F62BF4E44A0028D8CE /* Preview Assets.xcassets in Resources */,
 				4303E3262BF4FEAA0028D8CE /* plus.svg in Resources */,
+				431D3A612BF77E47006E6A82 /* download.svg in Resources */,
 				4303E2F32BF4E44A0028D8CE /* Assets.xcassets in Resources */,
 				4303E3282BF4FEEE0028D8CE /* person.svg in Resources */,
 			);
@@ -293,9 +345,17 @@
 			files = (
 				4303E2F12BF4E4490028D8CE /* ContentView.swift in Sources */,
 				4303E3192BF4E4E60028D8CE /* AllHappyView.swift in Sources */,
+				431D3A672BF77F28006E6A82 /* ExportReport.swift in Sources */,
 				4303E2EF2BF4E4490028D8CE /* HappyApp.swift in Sources */,
+				431D3A692BF7839F006E6A82 /* SwitchUser.swift in Sources */,
+				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
+				431D3A6B2BF78455006E6A82 /* Quit.swift in Sources */,
 				4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */,
+				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
+				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
 				4303E32C2BF4FFFD0028D8CE /* LeftHealthItem.swift in Sources */,
+				431D3A752BF79DBD006E6A82 /* INeedUpload.swift in Sources */,
+				431D3A5F2BF77CD7006E6A82 /* UploadLeftView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

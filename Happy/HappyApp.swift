@@ -11,7 +11,7 @@ import SwiftUI
 struct HappyApp: App {
     var body: some Scene {
         WindowGroup {
-            AllHappyView()
+            UploadView()
         }
     }
 }
