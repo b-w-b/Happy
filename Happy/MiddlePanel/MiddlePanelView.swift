@@ -8,22 +8,57 @@
 import SwiftUI
 
 struct MiddlePanelView: View {
+    @State private var selectedButton: Int? = nil
+    
     var body: some View {
         VStack() {
             Recording()
             HowYourFeeling()
             UploadFeeling()
             HStack(){
-                AddSympton()
-                    .padding(10)
-                BloodPressure()
-                    .padding(10)
+                ModeButton(
+                    onImageFile : "addsympton_on",
+                    offImageFile: "addsympton",
+                    textLabel : "添加症状与状态",
+                    isSelected: selectedButton != nil && selectedButton == 1, selectedEvent:  {
+                        print("SmartMonitor 1 tapped!")
+                        selectedButton = 1}
+                )
+                .applyCustomModifier(selectedButton != nil && selectedButton == 1)
+                .padding(10)
+                
+                ModeButton(
+                    onImageFile : "bloodpressure_on",
+                    offImageFile: "bloodpressure",
+                    textLabel : "添加血压数据",
+                    isSelected: selectedButton != nil && selectedButton == 2, selectedEvent:  {
+                        print("SmartMonitor 2 tapped!")
+                        selectedButton = 2}
+                )
+                .applyCustomModifier(selectedButton != nil && selectedButton == 2)
+                .padding(10)
             }
             HStack() {
-                DynamicAssessment()
-                    .padding(10)
-                UploadMore()
-                    .padding(10)
+                ModeButton(
+                    onImageFile : "dynamicassessment_on",
+                    offImageFile: "dynamicassessment",
+                    textLabel : "动态评估任务",
+                    isSelected: selectedButton != nil && selectedButton == 3, selectedEvent:  {
+                        print("SmartMonitor 3 tapped!")
+                        selectedButton = 3}
+                )
+                .applyCustomModifier(selectedButton != nil && selectedButton == 3)
+                .padding(10)
+                ModeButton(
+                    onImageFile : "uploadmoreinfo",
+                    offImageFile: "uploadmoreinfo",
+                    textLabel : "上传更多信息",
+                    isSelected: selectedButton != nil && selectedButton == 4, selectedEvent:  {
+                        print("SmartMonitor 4 tapped!")
+                        selectedButton = 4}
+                )
+                .applyCustomModifier(selectedButton != nil && selectedButton == 4)
+                .padding(10)
             }
         }
     }

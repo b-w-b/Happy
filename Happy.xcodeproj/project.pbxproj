@@ -48,17 +48,16 @@
 		43A4449D2BF7ABCF009F211E /* recording.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A4449C2BF7ABCF009F211E /* recording.svg */; };
 		43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4449E2BF7AEDE009F211E /* HowYourFeeling.swift */; };
 		43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444A02BF7AF20009F211E /* UploadFeeling.swift */; };
-		43A444A32BF7AF61009F211E /* AddSympton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444A22BF7AF61009F211E /* AddSympton.swift */; };
 		43A444A52BF7AF9D009F211E /* addsympton.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444A42BF7AF9D009F211E /* addsympton.svg */; };
 		43A444A72BF7B010009F211E /* bloodpressure.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444A62BF7B010009F211E /* bloodpressure.svg */; };
-		43A444A92BF7B023009F211E /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444A82BF7B023009F211E /* BloodPressure.swift */; };
-		43A444AB2BF7B0BF009F211E /* DynamicAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444AA2BF7B0BF009F211E /* DynamicAssessment.swift */; };
 		43A444AD2BF7B0FF009F211E /* dynamicassessment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */; };
 		43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444AE2BF7B11C009F211E /* UploadMore.swift */; };
 		43A444B12BF7B152009F211E /* uploadmoreinfo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444B02BF7B152009F211E /* uploadmoreinfo.svg */; };
 		43F1FD112BF8B2140093395A /* addsympton_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD102BF8B2140093395A /* addsympton_on.svg */; };
 		43F1FD132BF8C8010093395A /* bloodpressure_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD122BF8C8010093395A /* bloodpressure_on.svg */; };
 		43F1FD152BF8C8B80093395A /* dynamicassessment_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */; };
+		43F1FD172BF8CB2C0093395A /* ModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1FD162BF8CB2C0093395A /* ModeButton.swift */; };
+		43F1FD192BF8D4040093395A /* texsdt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1FD182BF8D4040093395A /* texsdt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,17 +122,16 @@
 		43A4449C2BF7ABCF009F211E /* recording.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recording.svg; path = Happy/images/recording.svg; sourceTree = SOURCE_ROOT; };
 		43A4449E2BF7AEDE009F211E /* HowYourFeeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowYourFeeling.swift; sourceTree = "<group>"; };
 		43A444A02BF7AF20009F211E /* UploadFeeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFeeling.swift; sourceTree = "<group>"; };
-		43A444A22BF7AF61009F211E /* AddSympton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSympton.swift; sourceTree = "<group>"; };
 		43A444A42BF7AF9D009F211E /* addsympton.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addsympton.svg; path = Happy/images/addsympton.svg; sourceTree = SOURCE_ROOT; };
 		43A444A62BF7B010009F211E /* bloodpressure.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bloodpressure.svg; path = Happy/images/bloodpressure.svg; sourceTree = SOURCE_ROOT; };
-		43A444A82BF7B023009F211E /* BloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
-		43A444AA2BF7B0BF009F211E /* DynamicAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAssessment.swift; sourceTree = "<group>"; };
 		43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment.svg; path = Happy/images/dynamicassessment.svg; sourceTree = SOURCE_ROOT; };
 		43A444AE2BF7B11C009F211E /* UploadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMore.swift; sourceTree = "<group>"; };
 		43A444B02BF7B152009F211E /* uploadmoreinfo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = uploadmoreinfo.svg; path = Happy/images/uploadmoreinfo.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD102BF8B2140093395A /* addsympton_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addsympton_on.svg; path = Happy/images/addsympton_on.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD122BF8C8010093395A /* bloodpressure_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bloodpressure_on.svg; path = Happy/images/bloodpressure_on.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment_on.svg; path = Happy/images/dynamicassessment_on.svg; sourceTree = SOURCE_ROOT; };
+		43F1FD162BF8CB2C0093395A /* ModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeButton.swift; sourceTree = "<group>"; };
+		43F1FD182BF8D4040093395A /* texsdt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = texsdt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,10 +274,9 @@
 				43A4449A2BF7AB7F009F211E /* Recording.swift */,
 				43A4449E2BF7AEDE009F211E /* HowYourFeeling.swift */,
 				43A444A02BF7AF20009F211E /* UploadFeeling.swift */,
-				43A444A22BF7AF61009F211E /* AddSympton.swift */,
-				43A444A82BF7B023009F211E /* BloodPressure.swift */,
-				43A444AA2BF7B0BF009F211E /* DynamicAssessment.swift */,
 				43A444AE2BF7B11C009F211E /* UploadMore.swift */,
+				43F1FD162BF8CB2C0093395A /* ModeButton.swift */,
+				43F1FD182BF8D4040093395A /* texsdt.swift */,
 			);
 			path = MiddlePanel;
 			sourceTree = "<group>";
@@ -443,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A444A32BF7AF61009F211E /* AddSympton.swift in Sources */,
 				4303E2F12BF4E4490028D8CE /* ContentView.swift in Sources */,
 				43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */,
 				4303E3192BF4E4E60028D8CE /* AllHappyView.swift in Sources */,
@@ -455,9 +451,11 @@
 				435FF3EC2BF83A6000DAF3E5 /* SelectChanges.swift in Sources */,
 				435FF3F02BF83A9100DAF3E5 /* SelectTask.swift in Sources */,
 				431D3A692BF7839F006E6A82 /* SwitchUser.swift in Sources */,
+				43F1FD172BF8CB2C0093395A /* ModeButton.swift in Sources */,
 				43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */,
 				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
 				431D3A6B2BF78455006E6A82 /* Quit.swift in Sources */,
+				43F1FD192BF8D4040093395A /* texsdt.swift in Sources */,
 				4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */,
 				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
 				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
@@ -466,9 +464,7 @@
 				435FF3E82BF83A3C00DAF3E5 /* RightPanel.swift in Sources */,
 				4303E32C2BF4FFFD0028D8CE /* LeftHealthItem.swift in Sources */,
 				435FF3F42BF83ABA00DAF3E5 /* SelectTaskMonitor.swift in Sources */,
-				43A444A92BF7B023009F211E /* BloodPressure.swift in Sources */,
 				431D3A752BF79DBD006E6A82 /* INeedUpload.swift in Sources */,
-				43A444AB2BF7B0BF009F211E /* DynamicAssessment.swift in Sources */,
 				43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */,
 				431D3A5F2BF77CD7006E6A82 /* UploadLeftView.swift in Sources */,
 				435FF3EA2BF83A4A00DAF3E5 /* PleaseSelect.swift in Sources */,
