@@ -4,7 +4,7 @@ struct TagCloudView: View {
     let tags: [String]
     @State private var totalHeight = CGFloat.zero       // Tracks total height of all tags
     @State private var currentRowHeight = CGFloat.zero  // Tracks current row height
-
+    
     var body: some View {
         VStack {
             GeometryReader { geometry in
@@ -13,11 +13,11 @@ struct TagCloudView: View {
         }
         .frame(height: totalHeight)
     }
-
+    
     private func generateContent(in geometry: GeometryProxy) -> some View {
         var width = CGFloat.zero
         var height = CGFloat.zero
-
+        
         return ZStack(alignment: .topLeading) {
             ForEach(tags, id: \.self) { tag in
                 self.tagView(for: tag)
@@ -47,17 +47,28 @@ struct TagCloudView: View {
         }
         .background(viewHeightReader(height: $totalHeight))
     }
-
+    
     private func tagView(for text: String) -> some View {
-        Text(text)
-            .padding(.horizontal, 12)
-            .padding(.vertical, 8)
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(20)
-            .font(.system(size: 16, weight: .medium))
+        selectedLabel{Text(text)}
     }
 }
+
+private struct selectedLabel<Content: View>: View {
+    @ViewBuilder let content: Content
+    @State var selected : Bool = false
+    var body: some View {
+        content.padding(.horizontal, 12)
+            .padding(.vertical, 8)
+            .background(selected ? Color.blue : Color.white)
+            .foregroundColor(selected ? .white : .gray)
+            .cornerRadius(20)
+            .font(.system(size: 16, weight: .medium))
+            .onTapGesture {
+                selected = !selected
+            }
+    }
+}
+
 
 private struct viewHeightReader: View {
     @Binding var height: CGFloat

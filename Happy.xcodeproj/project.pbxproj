@@ -91,7 +91,7 @@
 		4303E3272BF4FEEE0028D8CE /* person.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = person.svg; path = Happy/images/person.svg; sourceTree = SOURCE_ROOT; };
 		4303E3292BF4FF760028D8CE /* leftright.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = leftright.svg; path = Happy/images/leftright.svg; sourceTree = SOURCE_ROOT; };
 		4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftHealthItem.swift; sourceTree = "<group>"; };
-		4303E32D2BF57F020028D8CE /* HappyWoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HappyWoman.swift; path = Happy/HappyWoman.swift; sourceTree = SOURCE_ROOT; };
+		4303E32D2BF57F020028D8CE /* HappyWoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HappyWoman.swift; path = Happy/unused/HappyWoman.swift; sourceTree = SOURCE_ROOT; };
 		431D3A5C2BF77852006E6A82 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		431D3A5E2BF77CD7006E6A82 /* UploadLeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadLeftView.swift; sourceTree = "<group>"; };
 		431D3A602BF77E47006E6A82 /* download.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = download.svg; path = Happy/images/download.svg; sourceTree = SOURCE_ROOT; };
@@ -178,12 +178,9 @@
 		4303E2ED2BF4E4490028D8CE /* Happy */ = {
 			isa = PBXGroup;
 			children = (
+				43F1FD0F2BF8AA5A0093395A /* unused */,
 				4303E31C2BF4E9690028D8CE /* images */,
 				4303E2EE2BF4E4490028D8CE /* HappyApp.swift */,
-				4303E32D2BF57F020028D8CE /* HappyWoman.swift */,
-				4303E2F02BF4E4490028D8CE /* ContentView.swift */,
-				4303E3182BF4E4E60028D8CE /* AllHappyView.swift */,
-				4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */,
 				431D3A5C2BF77852006E6A82 /* UploadView.swift */,
 				43A444962BF7A972009F211E /* LeftPanel */,
 				43A444972BF7AB2A009F211E /* MiddlePanel */,
@@ -276,6 +273,17 @@
 				43A444AE2BF7B11C009F211E /* UploadMore.swift */,
 			);
 			path = MiddlePanel;
+			sourceTree = "<group>";
+		};
+		43F1FD0F2BF8AA5A0093395A /* unused */ = {
+			isa = PBXGroup;
+			children = (
+				4303E3182BF4E4E60028D8CE /* AllHappyView.swift */,
+				4303E2F02BF4E4490028D8CE /* ContentView.swift */,
+				4303E32B2BF4FFFD0028D8CE /* LeftHealthItem.swift */,
+				4303E32D2BF57F020028D8CE /* HappyWoman.swift */,
+			);
+			path = unused;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
