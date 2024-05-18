@@ -35,6 +35,14 @@
 		431D3A772BF79E3D006E6A82 /* upload.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A762BF79E3D006E6A82 /* upload.svg */; };
 		431D3A792BF79E67006E6A82 /* smartmonitor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 431D3A782BF79E67006E6A82 /* smartmonitor.svg */; };
 		431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */; };
+		435FF3E82BF83A3C00DAF3E5 /* RightPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3E72BF83A3C00DAF3E5 /* RightPanel.swift */; };
+		435FF3EA2BF83A4A00DAF3E5 /* PleaseSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3E92BF83A4A00DAF3E5 /* PleaseSelect.swift */; };
+		435FF3EC2BF83A6000DAF3E5 /* SelectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3EB2BF83A6000DAF3E5 /* SelectChanges.swift */; };
+		435FF3EE2BF83A7900DAF3E5 /* SelectBloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3ED2BF83A7900DAF3E5 /* SelectBloodPressure.swift */; };
+		435FF3F02BF83A9100DAF3E5 /* SelectTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3EF2BF83A9100DAF3E5 /* SelectTask.swift */; };
+		435FF3F22BF83AB000DAF3E5 /* SelectTaskSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */; };
+		435FF3F42BF83ABA00DAF3E5 /* SelectTaskMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */; };
+		435FF3F62BF85C8000DAF3E5 /* ChangeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */; };
 		43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444982BF7AB4D009F211E /* MiddlePanelView.swift */; };
 		43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4449A2BF7AB7F009F211E /* Recording.swift */; };
 		43A4449D2BF7ABCF009F211E /* recording.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A4449C2BF7ABCF009F211E /* recording.svg */; };
@@ -99,6 +107,14 @@
 		431D3A762BF79E3D006E6A82 /* upload.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = upload.svg; path = Happy/images/upload.svg; sourceTree = SOURCE_ROOT; };
 		431D3A782BF79E67006E6A82 /* smartmonitor.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = smartmonitor.svg; path = Happy/images/smartmonitor.svg; sourceTree = SOURCE_ROOT; };
 		431D3A7A2BF79E79006E6A82 /* SmartMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMonitor.swift; sourceTree = "<group>"; };
+		435FF3E72BF83A3C00DAF3E5 /* RightPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightPanel.swift; sourceTree = "<group>"; };
+		435FF3E92BF83A4A00DAF3E5 /* PleaseSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleaseSelect.swift; sourceTree = "<group>"; };
+		435FF3EB2BF83A6000DAF3E5 /* SelectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectChanges.swift; sourceTree = "<group>"; };
+		435FF3ED2BF83A7900DAF3E5 /* SelectBloodPressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBloodPressure.swift; sourceTree = "<group>"; };
+		435FF3EF2BF83A9100DAF3E5 /* SelectTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTask.swift; sourceTree = "<group>"; };
+		435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTaskSystem.swift; sourceTree = "<group>"; };
+		435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTaskMonitor.swift; sourceTree = "<group>"; };
+		435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLabel.swift; sourceTree = "<group>"; };
 		43A444982BF7AB4D009F211E /* MiddlePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlePanelView.swift; sourceTree = "<group>"; };
 		43A4449A2BF7AB7F009F211E /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		43A4449C2BF7ABCF009F211E /* recording.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recording.svg; path = Happy/images/recording.svg; sourceTree = SOURCE_ROOT; };
@@ -171,6 +187,7 @@
 				431D3A5C2BF77852006E6A82 /* UploadView.swift */,
 				43A444962BF7A972009F211E /* LeftPanel */,
 				43A444972BF7AB2A009F211E /* MiddlePanel */,
+				435FF3E62BF83A2100DAF3E5 /* RightPanel */,
 				4303E2F22BF4E44A0028D8CE /* Assets.xcassets */,
 			);
 			path = Happy;
@@ -215,6 +232,21 @@
 			);
 			name = images;
 			path = ../images;
+			sourceTree = "<group>";
+		};
+		435FF3E62BF83A2100DAF3E5 /* RightPanel */ = {
+			isa = PBXGroup;
+			children = (
+				435FF3E72BF83A3C00DAF3E5 /* RightPanel.swift */,
+				435FF3E92BF83A4A00DAF3E5 /* PleaseSelect.swift */,
+				435FF3EB2BF83A6000DAF3E5 /* SelectChanges.swift */,
+				435FF3ED2BF83A7900DAF3E5 /* SelectBloodPressure.swift */,
+				435FF3EF2BF83A9100DAF3E5 /* SelectTask.swift */,
+				435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */,
+				435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */,
+				435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */,
+			);
+			path = RightPanel;
 			sourceTree = "<group>";
 		};
 		43A444962BF7A972009F211E /* LeftPanel */ = {
@@ -395,9 +427,13 @@
 				4303E2F12BF4E4490028D8CE /* ContentView.swift in Sources */,
 				43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */,
 				4303E3192BF4E4E60028D8CE /* AllHappyView.swift in Sources */,
+				435FF3F22BF83AB000DAF3E5 /* SelectTaskSystem.swift in Sources */,
 				431D3A672BF77F28006E6A82 /* ExportReport.swift in Sources */,
 				4303E2EF2BF4E4490028D8CE /* HappyApp.swift in Sources */,
 				43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */,
+				435FF3F62BF85C8000DAF3E5 /* ChangeLabel.swift in Sources */,
+				435FF3EC2BF83A6000DAF3E5 /* SelectChanges.swift in Sources */,
+				435FF3F02BF83A9100DAF3E5 /* SelectTask.swift in Sources */,
 				431D3A692BF7839F006E6A82 /* SwitchUser.swift in Sources */,
 				43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */,
 				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
@@ -406,12 +442,16 @@
 				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
 				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
 				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
+				435FF3EE2BF83A7900DAF3E5 /* SelectBloodPressure.swift in Sources */,
+				435FF3E82BF83A3C00DAF3E5 /* RightPanel.swift in Sources */,
 				4303E32C2BF4FFFD0028D8CE /* LeftHealthItem.swift in Sources */,
+				435FF3F42BF83ABA00DAF3E5 /* SelectTaskMonitor.swift in Sources */,
 				43A444A92BF7B023009F211E /* BloodPressure.swift in Sources */,
 				431D3A752BF79DBD006E6A82 /* INeedUpload.swift in Sources */,
 				43A444AB2BF7B0BF009F211E /* DynamicAssessment.swift in Sources */,
 				43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */,
 				431D3A5F2BF77CD7006E6A82 /* UploadLeftView.swift in Sources */,
+				435FF3EA2BF83A4A00DAF3E5 /* PleaseSelect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

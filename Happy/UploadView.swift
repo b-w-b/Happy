@@ -16,12 +16,12 @@ struct UploadView: View {
             Divider()
             MiddlePanelView()
                 .frame(maxWidth: 398)
-            Text("World")
+            RightPanel()
                 .frame(maxWidth: .infinity)
         }
     }
 }
 
 #Preview {
-    UploadView().previewInterfaceOrientation(.landscapeLeft)
+    UploadView().previewInterfaceOrientation(.portrait)
 }
