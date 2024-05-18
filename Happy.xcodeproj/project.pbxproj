@@ -56,6 +56,9 @@
 		43A444AD2BF7B0FF009F211E /* dynamicassessment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */; };
 		43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444AE2BF7B11C009F211E /* UploadMore.swift */; };
 		43A444B12BF7B152009F211E /* uploadmoreinfo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444B02BF7B152009F211E /* uploadmoreinfo.svg */; };
+		43F1FD112BF8B2140093395A /* addsympton_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD102BF8B2140093395A /* addsympton_on.svg */; };
+		43F1FD132BF8C8010093395A /* bloodpressure_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD122BF8C8010093395A /* bloodpressure_on.svg */; };
+		43F1FD152BF8C8B80093395A /* dynamicassessment_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +131,9 @@
 		43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment.svg; path = Happy/images/dynamicassessment.svg; sourceTree = SOURCE_ROOT; };
 		43A444AE2BF7B11C009F211E /* UploadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMore.swift; sourceTree = "<group>"; };
 		43A444B02BF7B152009F211E /* uploadmoreinfo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = uploadmoreinfo.svg; path = Happy/images/uploadmoreinfo.svg; sourceTree = SOURCE_ROOT; };
+		43F1FD102BF8B2140093395A /* addsympton_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addsympton_on.svg; path = Happy/images/addsympton_on.svg; sourceTree = SOURCE_ROOT; };
+		43F1FD122BF8C8010093395A /* bloodpressure_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bloodpressure_on.svg; path = Happy/images/bloodpressure_on.svg; sourceTree = SOURCE_ROOT; };
+		43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment_on.svg; path = Happy/images/dynamicassessment_on.svg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +216,9 @@
 		4303E31C2BF4E9690028D8CE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */,
+				43F1FD122BF8C8010093395A /* bloodpressure_on.svg */,
+				43F1FD102BF8B2140093395A /* addsympton_on.svg */,
 				43A444B02BF7B152009F211E /* uploadmoreinfo.svg */,
 				43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */,
 				43A444A62BF7B010009F211E /* bloodpressure.svg */,
@@ -390,6 +399,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F1FD112BF8B2140093395A /* addsympton_on.svg in Resources */,
+				43F1FD152BF8C8B80093395A /* dynamicassessment_on.svg in Resources */,
 				431D3A792BF79E67006E6A82 /* smartmonitor.svg in Resources */,
 				431D3A712BF79D6E006E6A82 /* leave.svg in Resources */,
 				4303E32A2BF4FF760028D8CE /* leftright.svg in Resources */,
@@ -398,6 +409,7 @@
 				43A444A52BF7AF9D009F211E /* addsympton.svg in Resources */,
 				431D3A632BF77EC3006E6A82 /* switch.svg in Resources */,
 				431D3A772BF79E3D006E6A82 /* upload.svg in Resources */,
+				43F1FD132BF8C8010093395A /* bloodpressure_on.svg in Resources */,
 				43A444A72BF7B010009F211E /* bloodpressure.svg in Resources */,
 				431D3A6F2BF78717006E6A82 /* chenqiuping.svg in Resources */,
 				4303E3262BF4FEAA0028D8CE /* plus.svg in Resources */,

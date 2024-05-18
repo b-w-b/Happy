@@ -61,8 +61,9 @@ private struct selectedLabel<Content: View>: View {
             .padding(.vertical, 8)
             .background(selected ? Color.blue : Color.white)
             .foregroundColor(selected ? .white : .gray)
-            .cornerRadius(20)
+            .cornerRadius(14)
             .font(.system(size: 16, weight: .medium))
+            .border(selected ? .white : .black)
             .onTapGesture {
                 selected = !selected
             }
