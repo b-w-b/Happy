@@ -10,6 +10,7 @@ import SwiftUI
 struct SelectBloodPressure: View {
     var body: some View {
         Text("SelectBloodPressure")
+            .frame(minWidth: 170)
     }
 }
 

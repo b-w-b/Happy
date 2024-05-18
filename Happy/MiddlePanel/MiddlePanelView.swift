@@ -26,7 +26,7 @@ struct MiddlePanelView: View {
                             selectedButton = 1}
                     )
                     .applyCustomModifier(selectedButton != nil && selectedButton == 1)
-                    .padding(10)
+                    .padding(5)
                     
                     ModeButton(
                         onImageFile : "bloodpressure_on",
@@ -37,7 +37,7 @@ struct MiddlePanelView: View {
                             selectedButton = 2}
                     )
                     .applyCustomModifier(selectedButton != nil && selectedButton == 2)
-                    .padding(10)
+                    .padding(5)
                 }
                 HStack() {
                     ModeButton(
@@ -49,7 +49,7 @@ struct MiddlePanelView: View {
                             selectedButton = 3}
                     )
                     .applyCustomModifier(selectedButton != nil && selectedButton == 3)
-                    .padding(10)
+                    .padding(5)
                     ModeButton(
                         onImageFile : "uploadmoreinfo",
                         offImageFile: "uploadmoreinfo",
@@ -59,7 +59,7 @@ struct MiddlePanelView: View {
                             selectedButton = 4}
                     )
                     .applyCustomModifier(selectedButton != nil && selectedButton == 4)
-                    .padding(10)
+                    .padding(5)
                 }
             }
             .frame(maxWidth: 398)

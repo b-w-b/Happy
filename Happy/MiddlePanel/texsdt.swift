@@ -1,50 +1,48 @@
 import SwiftUI
 
-struct CustomView: View {
-    var isSelected: Bool
-
-    var body: some View {
-        Text(isSelected ? "Selected" : "Not Selected")
-            .padding()
-            .background(isSelected ? Color.green : Color.red)
-            .cornerRadius(10)
-    }
-}
-
-
-struct CustomModifier: ViewModifier {
-    var isSelected: Bool
-    
-    func body(content: Content) -> some View {
-        content
-    }
-}
-
-extension View {
-    func applyCustomModifier(isSelected: Bool) -> some View {
-        self.modifier(CustomModifier(isSelected: isSelected))
-    }
-}
-
 struct ContentView1: View {
-    @State private var isSelected = false
+    @State private var showModal = false
 
     var body: some View {
         VStack {
-            CustomView(isSelected: isSelected)
-                .applyCustomModifier(isSelected: isSelected)
-            
             Button(action: {
-                isSelected.toggle()
+                self.showModal = true
             }) {
-                Text("Toggle Selection")
+                Text("Show Modal")
                     .padding()
                     .background(Color.blue)
                     .foregroundColor(.white)
-                    .cornerRadius(8)
+                    .cornerRadius(10)
             }
-            .padding()
         }
+        .sheet(isPresented: $showModal) {
+            ModalView(showModal: self.$showModal)
+        }
+    }
+}
+
+struct ModalView: View {
+    @Binding var showModal: Bool
+
+    var body: some View {
+        VStack {
+            Text("This is a modal view")
+                .font(.largeTitle)
+                .padding()
+
+            Button(action: {
+                self.showModal = false
+            }) {
+                Text("Dismiss")
+                    .padding()
+                    .background(Color.red)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.white)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

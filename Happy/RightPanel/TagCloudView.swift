@@ -6,7 +6,7 @@ struct TagCloudView: View {
     @State private var currentRowHeight = CGFloat.zero  // Tracks current row height
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             GeometryReader { geometry in
                 self.generateContent(in: geometry)
             }
