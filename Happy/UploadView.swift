@@ -15,8 +15,6 @@ struct UploadView: View {
                 .padding()
             Divider()
             MiddlePanelView()
-                .frame(maxWidth: 398)
-            RightPanel()
                 .frame(maxWidth: .infinity)
         }
     }
