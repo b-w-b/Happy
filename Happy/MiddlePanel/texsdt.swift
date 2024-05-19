@@ -1,45 +1,34 @@
 import SwiftUI
 
 struct ContentView1: View {
-    @State private var showDialog = false
-
-    var body: some View {
-        ZStack {
-            VStack {
-                Button("Show Dialog") {
-                    showDialog.toggle()
-                }
-            }
-            
-            if showDialog {
-                FixedSizeDialogView(showDialog: $showDialog)
-                    .frame(width: 300, height: 200) // Customize the size here
-                    .background(Color.white)
-                    .cornerRadius(12)
-                    .shadow(radius: 10)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 12)
-                            .stroke(Color.gray, lineWidth: 1)
-                    )
-                    .transition(.scale)
-            }
-        }
-        .animation(.easeInOut, value: showDialog)
-    }
-}
-
-struct FixedSizeDialogView: View {
-    @Binding var showDialog: Bool
+    @State private var selectedTime = Date()
 
     var body: some View {
         VStack {
-            Text("This is a fixed size dialog")
-                .padding()
-            Button("Dismiss") {
-                showDialog = false
-            }
-            .padding()
+            Text("选择时间")
+                .font(.title)
+
+            DatePicker(
+                "时间",
+                selection: $selectedTime,
+                displayedComponents: .hourAndMinute
+            )
+            .datePickerStyle(WheelDatePickerStyle()) // or use .compact for a different style
+            .labelsHidden()
+            .frame(maxWidth: 150, maxHeight: 150)
+            .clipped()
+            Text("Selected Time: \(formattedTime)")
+                            .padding()
         }
+        .border(.red)
+        .padding()
+       
+    }
+
+    var formattedTime: String {
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        return formatter.string(from: selectedTime)
     }
 }
 

@@ -3,6 +3,7 @@ import SwiftUI
 struct UploadFeeling: View {
   var body: some View {
     HStack(spacing: 10) {
+        Image(resource: "upload1", ofType: "svg")
       Text("上传")
         .font(Font.custom("PingFang SC", size: 18).weight(.medium))
         .lineSpacing(21.60)

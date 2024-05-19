@@ -46,6 +46,15 @@
 		435FF3F62BF85C8000DAF3E5 /* ChangeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */; };
 		439F47F42BF9CC3B00C5831C /* CommitSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */; };
 		439F47F62BF9CC9400C5831C /* ok.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47F52BF9CC9400C5831C /* ok.svg */; };
+		439F47F82BF9E13800C5831C /* refresh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47F72BF9E13800C5831C /* refresh.svg */; };
+		439F47FA2BF9E21C00C5831C /* sample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F47F92BF9E21C00C5831C /* sample2.swift */; };
+		439F48002BF9FFA600C5831C /* info.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47FF2BF9FFA600C5831C /* info.svg */; };
+		439F48022BFA00CE00C5831C /* upload1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F48012BFA00CE00C5831C /* upload1.svg */; };
+		439F48042BFA33DA00C5831C /* Listening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F48032BFA33DA00C5831C /* Listening.swift */; };
+		439F48062BFA340500C5831C /* DailyLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F48052BFA340500C5831C /* DailyLife.swift */; };
+		439F48082BFA349600C5831C /* Speaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F48072BFA349600C5831C /* Speaking.swift */; };
+		439F480A2BFA353900C5831C /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F48092BFA353900C5831C /* Space.swift */; };
+		439F480C2BFA370D00C5831C /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F480B2BFA370D00C5831C /* TextButton.swift */; };
 		43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444982BF7AB4D009F211E /* MiddlePanelView.swift */; };
 		43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4449A2BF7AB7F009F211E /* Recording.swift */; };
 		43A4449D2BF7ABCF009F211E /* recording.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A4449C2BF7ABCF009F211E /* recording.svg */; };
@@ -123,6 +132,15 @@
 		435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLabel.swift; sourceTree = "<group>"; };
 		439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitSuccess.swift; sourceTree = "<group>"; };
 		439F47F52BF9CC9400C5831C /* ok.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ok.svg; path = Happy/images/ok.svg; sourceTree = SOURCE_ROOT; };
+		439F47F72BF9E13800C5831C /* refresh.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = refresh.svg; path = Happy/images/refresh.svg; sourceTree = SOURCE_ROOT; };
+		439F47F92BF9E21C00C5831C /* sample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample2.swift; sourceTree = "<group>"; };
+		439F47FF2BF9FFA600C5831C /* info.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = info.svg; path = Happy/images/info.svg; sourceTree = SOURCE_ROOT; };
+		439F48012BFA00CE00C5831C /* upload1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = upload1.svg; path = Happy/images/upload1.svg; sourceTree = SOURCE_ROOT; };
+		439F48032BFA33DA00C5831C /* Listening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listening.swift; sourceTree = "<group>"; };
+		439F48052BFA340500C5831C /* DailyLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLife.swift; sourceTree = "<group>"; };
+		439F48072BFA349600C5831C /* Speaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaking.swift; sourceTree = "<group>"; };
+		439F48092BFA353900C5831C /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		439F480B2BFA370D00C5831C /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 		43A444982BF7AB4D009F211E /* MiddlePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlePanelView.swift; sourceTree = "<group>"; };
 		43A4449A2BF7AB7F009F211E /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		43A4449C2BF7ABCF009F211E /* recording.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recording.svg; path = Happy/images/recording.svg; sourceTree = SOURCE_ROOT; };
@@ -220,6 +238,9 @@
 		4303E31C2BF4E9690028D8CE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				439F48012BFA00CE00C5831C /* upload1.svg */,
+				439F47FF2BF9FFA600C5831C /* info.svg */,
+				439F47F72BF9E13800C5831C /* refresh.svg */,
 				439F47F52BF9CC9400C5831C /* ok.svg */,
 				43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */,
 				43F1FD122BF8C8010093395A /* bloodpressure_on.svg */,
@@ -258,6 +279,11 @@
 				435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */,
 				439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */,
 				4354CA722BF8FB2400C685F1 /* SelectSympton.swift */,
+				439F48032BFA33DA00C5831C /* Listening.swift */,
+				439F48052BFA340500C5831C /* DailyLife.swift */,
+				439F48072BFA349600C5831C /* Speaking.swift */,
+				439F48092BFA353900C5831C /* Space.swift */,
+				439F480B2BFA370D00C5831C /* TextButton.swift */,
 			);
 			path = RightPanel;
 			sourceTree = "<group>";
@@ -286,6 +312,7 @@
 				43A444AE2BF7B11C009F211E /* UploadMore.swift */,
 				43F1FD162BF8CB2C0093395A /* ModeButton.swift */,
 				43F1FD182BF8D4040093395A /* texsdt.swift */,
+				439F47F92BF9E21C00C5831C /* sample2.swift */,
 			);
 			path = MiddlePanel;
 			sourceTree = "<group>";
@@ -420,11 +447,14 @@
 				431D3A6F2BF78717006E6A82 /* chenqiuping.svg in Resources */,
 				439F47F62BF9CC9400C5831C /* ok.svg in Resources */,
 				4303E3262BF4FEAA0028D8CE /* plus.svg in Resources */,
+				439F48022BFA00CE00C5831C /* upload1.svg in Resources */,
 				431D3A612BF77E47006E6A82 /* download.svg in Resources */,
 				4303E2F32BF4E44A0028D8CE /* Assets.xcassets in Resources */,
 				43A444B12BF7B152009F211E /* uploadmoreinfo.svg in Resources */,
+				439F48002BF9FFA600C5831C /* info.svg in Resources */,
 				4303E3282BF4FEEE0028D8CE /* person.svg in Resources */,
 				43A444AD2BF7B0FF009F211E /* dynamicassessment.svg in Resources */,
+				439F47F82BF9E13800C5831C /* refresh.svg in Resources */,
 				43A4449D2BF7ABCF009F211E /* recording.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +493,7 @@
 				435FF3F02BF83A9100DAF3E5 /* SelectTask.swift in Sources */,
 				431D3A692BF7839F006E6A82 /* SwitchUser.swift in Sources */,
 				43F1FD172BF8CB2C0093395A /* ModeButton.swift in Sources */,
+				439F48082BFA349600C5831C /* Speaking.swift in Sources */,
 				4354CA732BF8FB2400C685F1 /* SelectSympton.swift in Sources */,
 				43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */,
 				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
@@ -470,12 +501,17 @@
 				43F1FD192BF8D4040093395A /* texsdt.swift in Sources */,
 				4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */,
 				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
+				439F47FA2BF9E21C00C5831C /* sample2.swift in Sources */,
 				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
 				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
+				439F480C2BFA370D00C5831C /* TextButton.swift in Sources */,
+				439F48042BFA33DA00C5831C /* Listening.swift in Sources */,
+				439F48062BFA340500C5831C /* DailyLife.swift in Sources */,
 				435FF3EE2BF83A7900DAF3E5 /* SelectBloodPressure.swift in Sources */,
 				435FF3E82BF83A3C00DAF3E5 /* RightPanel.swift in Sources */,
 				4303E32C2BF4FFFD0028D8CE /* LeftHealthItem.swift in Sources */,
 				435FF3F42BF83ABA00DAF3E5 /* SelectTaskMonitor.swift in Sources */,
+				439F480A2BFA353900C5831C /* Space.swift in Sources */,
 				431D3A752BF79DBD006E6A82 /* INeedUpload.swift in Sources */,
 				43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */,
 				431D3A5F2BF77CD7006E6A82 /* UploadLeftView.swift in Sources */,
