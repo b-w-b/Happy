@@ -79,23 +79,7 @@ struct SelectTaskSystem: View {
           .lineSpacing(18)
           .foregroundColor(Color(red: 0.08, green: 0.08, blue: 0.08))
           .offset(x: -31, y: 0)
-        ZStack() {
-          Rectangle()
-            .foregroundColor(.clear)
-            .frame(width: 60, height: 30)
-            .background(Color(red: 0.19, green: 0.55, blue: 0.91))
-            .cornerRadius(15)
-            .offset(x: 0, y: 0)
-          Rectangle()
-            .foregroundColor(.clear)
-            .frame(width: 24.55, height: 24.55)
-            .background(.white)
-            .cornerRadius(12.27)
-            .offset(x: 15, y: -0)
-            .shadow(
-              color: Color(red: 0.12, green: 0.15, blue: 0.30, opacity: 0.10), radius: 5.45, y: 2.73
-            )
-        }
+          ToggleButton(isSelected: true, selectedEvent: {})
         .frame(width: 60, height: 30)
         .offset(x: 64, y: 0)
       }

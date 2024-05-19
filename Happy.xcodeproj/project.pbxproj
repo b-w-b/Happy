@@ -55,6 +55,7 @@
 		439F48082BFA349600C5831C /* Speaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F48072BFA349600C5831C /* Speaking.swift */; };
 		439F480A2BFA353900C5831C /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F48092BFA353900C5831C /* Space.swift */; };
 		439F480C2BFA370D00C5831C /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F480B2BFA370D00C5831C /* TextButton.swift */; };
+		439F480E2BFA3B5D00C5831C /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F480D2BFA3B5D00C5831C /* ToggleButton.swift */; };
 		43A444992BF7AB4D009F211E /* MiddlePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444982BF7AB4D009F211E /* MiddlePanelView.swift */; };
 		43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4449A2BF7AB7F009F211E /* Recording.swift */; };
 		43A4449D2BF7ABCF009F211E /* recording.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A4449C2BF7ABCF009F211E /* recording.svg */; };
@@ -141,6 +142,7 @@
 		439F48072BFA349600C5831C /* Speaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaking.swift; sourceTree = "<group>"; };
 		439F48092BFA353900C5831C /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
 		439F480B2BFA370D00C5831C /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		439F480D2BFA3B5D00C5831C /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		43A444982BF7AB4D009F211E /* MiddlePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlePanelView.swift; sourceTree = "<group>"; };
 		43A4449A2BF7AB7F009F211E /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		43A4449C2BF7ABCF009F211E /* recording.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = recording.svg; path = Happy/images/recording.svg; sourceTree = SOURCE_ROOT; };
@@ -284,6 +286,7 @@
 				439F48072BFA349600C5831C /* Speaking.swift */,
 				439F48092BFA353900C5831C /* Space.swift */,
 				439F480B2BFA370D00C5831C /* TextButton.swift */,
+				439F480D2BFA3B5D00C5831C /* ToggleButton.swift */,
 			);
 			path = RightPanel;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				4303E2EF2BF4E4490028D8CE /* HappyApp.swift in Sources */,
 				43A4449B2BF7AB7F009F211E /* Recording.swift in Sources */,
 				439F47F42BF9CC3B00C5831C /* CommitSuccess.swift in Sources */,
+				439F480E2BFA3B5D00C5831C /* ToggleButton.swift in Sources */,
 				435FF3F62BF85C8000DAF3E5 /* ChangeLabel.swift in Sources */,
 				435FF3EC2BF83A6000DAF3E5 /* TagCloudView.swift in Sources */,
 				435FF3F02BF83A9100DAF3E5 /* SelectTask.swift in Sources */,
