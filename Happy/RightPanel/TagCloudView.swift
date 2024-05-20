@@ -17,6 +17,7 @@ struct TagCloudView: View {
     private func generateContent(in geometry: GeometryProxy) -> some View {
         var width = CGFloat.zero
         var height = CGFloat.zero
+        var selectedheight = CGFloat.zero
         
         return ZStack(alignment: .topLeading) {
             ForEach(tags, id: \.self) { tag in
@@ -25,12 +26,18 @@ struct TagCloudView: View {
                     .alignmentGuide(.leading, computeValue: { dimension in
                         if (abs(width - dimension.width) > geometry.size.width) {
                             width = 0
-                            height -= dimension.height
+                            height -= selectedheight
+                            selectedheight = 0
+                        }
+                        
+                        if dimension.height > selectedheight {
+                            selectedheight = dimension.height
                         }
                         
                         let result = width
                         if tag == self.tags.last! {
                             width = 0 // Last item
+                            selectedheight  = 0
                         } else {
                             width -= dimension.width
                         }
@@ -57,16 +64,50 @@ private struct selectedLabel<Content: View>: View {
     @ViewBuilder let content: Content
     @State var selected : Bool = false
     var body: some View {
-        content.padding(.horizontal, 12)
-            .padding(.vertical, 8)
-            .background(selected ? Color.blue : Color.white)
-            .foregroundColor(selected ? .white : .gray)
-            .cornerRadius(14)
-            .font(.system(size: 16, weight: .medium))
-            .border(selected ? .white : .black)
-            .onTapGesture {
-                selected = !selected
+        
+        VStack() {
+            content.padding(.horizontal, 12)
+                .padding(.vertical, 8)
+                .frame(width: 141)
+                .background(selected ? Color.blue : Color.white)
+                .foregroundColor(selected ? .white : .gray)
+                .cornerRadius(14)
+                .font(.system(size: 16, weight: .medium))
+                .border(selected ? .white : .black)
+                .onTapGesture {
+                    selected = !selected
+                }
+            if selected {
+                TagCount()
             }
+        }
+        ZStack() {
+            if selected {
+                Rectangle()
+                    .frame(width: 20, height: 20)
+                    .foregroundColor(Color.blue)
+                    .background(.clear)
+                    .cornerRadius(6)
+                    .offset(x: -25, y: -5)
+                    .onTapGesture {
+                        selected = !selected
+                    }
+                Rectangle()
+                    .frame(width: 18, height: 18)
+                    .foregroundColor(.clear)
+                    .background(.white)
+                    .cornerRadius(6)
+                    .offset(x: -25, y: -5)
+                    .onTapGesture {
+                        selected = !selected
+                    }
+                Image(resource: "close", ofType: "svg")
+                    .offset(x: -25, y: -5)
+                    .onTapGesture {
+                        selected = !selected
+                    }
+            }
+        }
     }
 }
 

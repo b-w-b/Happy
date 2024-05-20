@@ -44,7 +44,8 @@
 		435FF3F22BF83AB000DAF3E5 /* SelectTaskSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */; };
 		435FF3F42BF83ABA00DAF3E5 /* SelectTaskMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */; };
 		435FF3F62BF85C8000DAF3E5 /* ChangeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */; };
-		43605A372BFB919E000DEE0F /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43605A362BFB919E000DEE0F /* Sample1.swift */; };
+		43605A372BFB919E000DEE0F /* TagCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43605A362BFB919E000DEE0F /* TagCount.swift */; };
+		43605A392BFBA006000DEE0F /* close.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43605A382BFBA006000DEE0F /* close.svg */; };
 		439F47F42BF9CC3B00C5831C /* CommitSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */; };
 		439F47F62BF9CC9400C5831C /* ok.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47F52BF9CC9400C5831C /* ok.svg */; };
 		439F47F82BF9E13800C5831C /* refresh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47F72BF9E13800C5831C /* refresh.svg */; };
@@ -132,7 +133,8 @@
 		435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTaskSystem.swift; sourceTree = "<group>"; };
 		435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTaskMonitor.swift; sourceTree = "<group>"; };
 		435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLabel.swift; sourceTree = "<group>"; };
-		43605A362BFB919E000DEE0F /* Sample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = "<group>"; };
+		43605A362BFB919E000DEE0F /* TagCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCount.swift; sourceTree = "<group>"; };
+		43605A382BFBA006000DEE0F /* close.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = close.svg; path = Happy/images/close.svg; sourceTree = SOURCE_ROOT; };
 		439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitSuccess.swift; sourceTree = "<group>"; };
 		439F47F52BF9CC9400C5831C /* ok.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ok.svg; path = Happy/images/ok.svg; sourceTree = SOURCE_ROOT; };
 		439F47F72BF9E13800C5831C /* refresh.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = refresh.svg; path = Happy/images/refresh.svg; sourceTree = SOURCE_ROOT; };
@@ -212,7 +214,6 @@
 			children = (
 				43F1FD0F2BF8AA5A0093395A /* unused */,
 				4303E31C2BF4E9690028D8CE /* images */,
-				43605A362BFB919E000DEE0F /* Sample1.swift */,
 				4303E2EE2BF4E4490028D8CE /* HappyApp.swift */,
 				431D3A5C2BF77852006E6A82 /* UploadView.swift */,
 				43A444962BF7A972009F211E /* LeftPanel */,
@@ -243,6 +244,7 @@
 		4303E31C2BF4E9690028D8CE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				43605A382BFBA006000DEE0F /* close.svg */,
 				439F48012BFA00CE00C5831C /* upload1.svg */,
 				439F47FF2BF9FFA600C5831C /* info.svg */,
 				439F47F72BF9E13800C5831C /* refresh.svg */,
@@ -274,6 +276,7 @@
 		435FF3E62BF83A2100DAF3E5 /* RightPanel */ = {
 			isa = PBXGroup;
 			children = (
+				43605A362BFB919E000DEE0F /* TagCount.swift */,
 				435FF3E72BF83A3C00DAF3E5 /* RightPanel.swift */,
 				435FF3E92BF83A4A00DAF3E5 /* PleaseSelect.swift */,
 				435FF3EB2BF83A6000DAF3E5 /* TagCloudView.swift */,
@@ -440,6 +443,7 @@
 			files = (
 				43F1FD112BF8B2140093395A /* addsympton_on.svg in Resources */,
 				43F1FD152BF8C8B80093395A /* dynamicassessment_on.svg in Resources */,
+				43605A392BFBA006000DEE0F /* close.svg in Resources */,
 				431D3A792BF79E67006E6A82 /* smartmonitor.svg in Resources */,
 				431D3A712BF79D6E006E6A82 /* leave.svg in Resources */,
 				4303E32A2BF4FF760028D8CE /* leftright.svg in Resources */,
@@ -511,7 +515,7 @@
 				439F47FA2BF9E21C00C5831C /* sample2.swift in Sources */,
 				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
 				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
-				43605A372BFB919E000DEE0F /* Sample1.swift in Sources */,
+				43605A372BFB919E000DEE0F /* TagCount.swift in Sources */,
 				439F480C2BFA370D00C5831C /* TextButton.swift in Sources */,
 				439F48042BFA33DA00C5831C /* Listening.swift in Sources */,
 				439F48062BFA340500C5831C /* DailyLife.swift in Sources */,
