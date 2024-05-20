@@ -50,5 +50,5 @@ struct TextButton: View {
 }
 
 #Preview {
-    TextButton(isSelected:false, textLabel: "老人的听力水平",selectedEvent: {print("ddd")})
+    TextButton(isSelected:false, textLabel: "老人的听力水平",selectedEvent: {print("")})
 }

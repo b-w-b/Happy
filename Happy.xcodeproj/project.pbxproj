@@ -44,6 +44,7 @@
 		435FF3F22BF83AB000DAF3E5 /* SelectTaskSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */; };
 		435FF3F42BF83ABA00DAF3E5 /* SelectTaskMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */; };
 		435FF3F62BF85C8000DAF3E5 /* ChangeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */; };
+		43605A372BFB919E000DEE0F /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43605A362BFB919E000DEE0F /* Sample1.swift */; };
 		439F47F42BF9CC3B00C5831C /* CommitSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */; };
 		439F47F62BF9CC9400C5831C /* ok.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47F52BF9CC9400C5831C /* ok.svg */; };
 		439F47F82BF9E13800C5831C /* refresh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 439F47F72BF9E13800C5831C /* refresh.svg */; };
@@ -70,7 +71,7 @@
 		43F1FD132BF8C8010093395A /* bloodpressure_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD122BF8C8010093395A /* bloodpressure_on.svg */; };
 		43F1FD152BF8C8B80093395A /* dynamicassessment_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */; };
 		43F1FD172BF8CB2C0093395A /* ModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1FD162BF8CB2C0093395A /* ModeButton.swift */; };
-		43F1FD192BF8D4040093395A /* texsdt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1FD182BF8D4040093395A /* texsdt.swift */; };
+		43F1FD192BF8D4040093395A /* UploadSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1FD182BF8D4040093395A /* UploadSuccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,7 @@
 		435FF3F12BF83AB000DAF3E5 /* SelectTaskSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTaskSystem.swift; sourceTree = "<group>"; };
 		435FF3F32BF83ABA00DAF3E5 /* SelectTaskMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTaskMonitor.swift; sourceTree = "<group>"; };
 		435FF3F52BF85C8000DAF3E5 /* ChangeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLabel.swift; sourceTree = "<group>"; };
+		43605A362BFB919E000DEE0F /* Sample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = "<group>"; };
 		439F47F32BF9CC3B00C5831C /* CommitSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitSuccess.swift; sourceTree = "<group>"; };
 		439F47F52BF9CC9400C5831C /* ok.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ok.svg; path = Happy/images/ok.svg; sourceTree = SOURCE_ROOT; };
 		439F47F72BF9E13800C5831C /* refresh.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = refresh.svg; path = Happy/images/refresh.svg; sourceTree = SOURCE_ROOT; };
@@ -157,7 +159,7 @@
 		43F1FD122BF8C8010093395A /* bloodpressure_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bloodpressure_on.svg; path = Happy/images/bloodpressure_on.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment_on.svg; path = Happy/images/dynamicassessment_on.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD162BF8CB2C0093395A /* ModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeButton.swift; sourceTree = "<group>"; };
-		43F1FD182BF8D4040093395A /* texsdt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = texsdt.swift; sourceTree = "<group>"; };
+		43F1FD182BF8D4040093395A /* UploadSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadSuccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 			children = (
 				43F1FD0F2BF8AA5A0093395A /* unused */,
 				4303E31C2BF4E9690028D8CE /* images */,
+				43605A362BFB919E000DEE0F /* Sample1.swift */,
 				4303E2EE2BF4E4490028D8CE /* HappyApp.swift */,
 				431D3A5C2BF77852006E6A82 /* UploadView.swift */,
 				43A444962BF7A972009F211E /* LeftPanel */,
@@ -314,7 +317,7 @@
 				43A444A02BF7AF20009F211E /* UploadFeeling.swift */,
 				43A444AE2BF7B11C009F211E /* UploadMore.swift */,
 				43F1FD162BF8CB2C0093395A /* ModeButton.swift */,
-				43F1FD182BF8D4040093395A /* texsdt.swift */,
+				43F1FD182BF8D4040093395A /* UploadSuccess.swift */,
 				439F47F92BF9E21C00C5831C /* sample2.swift */,
 			);
 			path = MiddlePanel;
@@ -502,12 +505,13 @@
 				43A4449F2BF7AEDE009F211E /* HowYourFeeling.swift in Sources */,
 				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
 				431D3A6B2BF78455006E6A82 /* Quit.swift in Sources */,
-				43F1FD192BF8D4040093395A /* texsdt.swift in Sources */,
+				43F1FD192BF8D4040093395A /* UploadSuccess.swift in Sources */,
 				4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */,
 				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
 				439F47FA2BF9E21C00C5831C /* sample2.swift in Sources */,
 				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
 				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
+				43605A372BFB919E000DEE0F /* Sample1.swift in Sources */,
 				439F480C2BFA370D00C5831C /* TextButton.swift in Sources */,
 				439F48042BFA33DA00C5831C /* Listening.swift in Sources */,
 				439F48062BFA340500C5831C /* DailyLife.swift in Sources */,

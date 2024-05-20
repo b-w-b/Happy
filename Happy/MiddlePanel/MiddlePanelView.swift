@@ -15,7 +15,6 @@ struct MiddlePanelView: View {
             VStack() {
                 Recording()
                 HowYourFeeling()
-                UploadFeeling()
                 HStack(){
                     ModeButton(
                         onImageFile : "addsympton_on",
