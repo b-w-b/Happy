@@ -64,53 +64,31 @@ private struct selectedLabel<Content: View>: View {
     @ViewBuilder let content: Content
     @State var selected : Bool = false
     var body: some View {
-        
         VStack() {
-            content.padding(.horizontal, 12)
-                .padding(.vertical, 8)
-                .frame(width: 141)
-                .background(selected ? Color.blue : Color.white)
-                .foregroundColor(selected ? .white : .gray)
-                .cornerRadius(14)
-                .font(.system(size: 16, weight: .medium))
-                .border(selected ? .white : .black)
-                .onTapGesture {
-                    selected = !selected
-                }
+            HStack() {
+                content.padding(.horizontal, 12)
+                    .padding(.vertical, 8)
+                    .background(selected ? Color.blue : Color.white)
+                    .foregroundColor(selected ? .white : .gray)
+                    .cornerRadius(14)
+                    .font(.system(size: 16, weight: .medium))
+                    .onTapGesture {
+                        selected = !selected
+                    }
+            }
+            .background(Color(red: 0.97, green: 0.97, blue: 0.97))
+            .cornerRadius(4)
+            .overlay(
+                RoundedRectangle(cornerRadius: 4)
+                    .inset(by: 0.50)
+                    .stroke( selected ? .clear : Color(red: 0.49, green: 0.49, blue: 0.49), lineWidth: 0.50)
+            );
             if selected {
                 TagCount()
             }
         }
-        ZStack() {
-            if selected {
-                Rectangle()
-                    .frame(width: 20, height: 20)
-                    .foregroundColor(Color.blue)
-                    .background(.clear)
-                    .cornerRadius(6)
-                    .offset(x: -25, y: -5)
-                    .onTapGesture {
-                        selected = !selected
-                    }
-                Rectangle()
-                    .frame(width: 18, height: 18)
-                    .foregroundColor(.clear)
-                    .background(.white)
-                    .cornerRadius(6)
-                    .offset(x: -25, y: -5)
-                    .onTapGesture {
-                        selected = !selected
-                    }
-                Image(resource: "close", ofType: "svg")
-                    .offset(x: -25, y: -5)
-                    .onTapGesture {
-                        selected = !selected
-                    }
-            }
-        }
     }
 }
-
 
 private struct viewHeightReader: View {
     @Binding var height: CGFloat

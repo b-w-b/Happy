@@ -16,7 +16,7 @@ struct HowYourFeeling: View {
                             RoundedRectangle(cornerRadius: 6)
                                 .inset(by: 1)
                                 .stroke(Color(red: 0.19, green: 0.55, blue: 0.91), lineWidth: 1)
-                        );
+                        )
                     if text.isEmpty {
                         Text("陈女士，您感觉如何呢？")
                             .foregroundColor(.gray)

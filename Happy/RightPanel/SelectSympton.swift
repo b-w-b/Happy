@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SelectSympton: View {
     @State private var showDialog = false
-    @State var currentTime : String = "2024.02.16 16:00:00"
+    @State var currentTime = Date()
+    let formatter = DateFormatter()
+    
     var body: some View {
         ZStack() {
             VStack(alignment: .leading) {
@@ -19,22 +21,30 @@ struct SelectSympton: View {
                     .lineSpacing(18)
                     .foregroundColor(Color(red: 0.08, green: 0.08, blue: 0.08));
                 HStack() {
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                        Text("当前时间")
-                    })
-                    .padding(0)
-                    .frame(width: 170, height: 34)
-                    .cornerRadius(4)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 4)
-                            .inset(by: 0.50)
-                            .stroke(Color(red: 0.49, green: 0.49, blue: 0.49), lineWidth: 0.50)
-                    );
+                    Text("当前时间")
+                        .padding(0)
+                        .frame(width: 170, height: 34)
+                        .cornerRadius(4)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 4)
+                                .inset(by: 0.50)
+                                .stroke(Color(red: 0.49, green: 0.49, blue: 0.49), lineWidth: 0.50)
+                        )
+                        .onAppear {
+                            formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+                            // Start a timer to update the current time every second
+                            let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+                                self.currentTime = Date()
+                            }
+                            // Make sure to invalidate the timer when this view disappears
+                            RunLoop.current.add(timer, forMode: .common)
+                        }
+                    ;
                     
                     Text("发生日期")
                         .padding(EdgeInsets(top: 0, leading: 50, bottom: 0, trailing: 0))
-                    
-                    Text("____-__-__")
+                    let s = "____-__-__"
+                    Text(s)
                         .font(Font.custom("PingFang SC", size: 18))
                         .tracking(0.72)
                         .foregroundColor(Color(red: 0.19, green: 0.22, blue: 0.24))
@@ -48,7 +58,7 @@ struct SelectSympton: View {
                         );
                 }
                 HStack() {
-                    Text(currentTime)
+                    Text(formatter.string(from: currentTime))
                         .frame(width: 170, height: 34)
                     Text("发生时间")
                         .padding(EdgeInsets(top: 0, leading: 50, bottom: 0, trailing: 0))

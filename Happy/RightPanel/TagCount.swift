@@ -29,6 +29,7 @@ struct TagCount: View {
                             .tracking(0.72)
                             .lineSpacing(14)
                             .foregroundColor(Color(red: 0.19, green: 0.22, blue: 0.24))
+                            .frame(width: 17)
                     }
                     .padding(EdgeInsets(top: 8, leading: 28, bottom: 8, trailing: 28))
                     .frame(height: 30)
