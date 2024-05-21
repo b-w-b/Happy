@@ -43,8 +43,10 @@ struct HowYourFeeling: View {
                 )
                 .cornerRadius(6)
                 .onTapGesture {
-                    if showDialog == false {
-                        showDialog.toggle()
+                    if !text.isEmpty {
+                        if showDialog == false {
+                            showDialog.toggle()
+                        }
                     }
                 }
             }

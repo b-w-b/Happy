@@ -1,23 +1,34 @@
 import SwiftUI
 
-struct ContentView122: View {
+struct ContentView12: View {
+    @State private var selectedTime = Date()
+
     var body: some View {
         VStack {
-            GeometryReader { geometry in
-                Text("Hello, World!")
-                    .alignmentGuide(HorizontalAlignment.center) { dimension in
-                        let centerX = geometry.size.width / 2
-                        let alignmentX = abs(dimension.width) < .ulpOfOne ? centerX : dimension.width
-                        print("Alignment guide evdaluated. Center X: \(alignmentX)")
-                        return alignmentX
-                    }
-            }
+            Text("选择时间:")
+                .font(.headline)
+            
+            Text(formatTime(selectedTime))
+                .font(.subheadline)
+                .padding()
+
+            DatePicker("Select a Time", selection: $selectedTime, displayedComponents: .hourAndMinute)
+                .datePickerStyle(WheelDatePickerStyle())
+                .labelsHidden()
+                .padding()
         }
+        .padding()
+    }
+
+    func formatTime(_ time: Date) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeStyle = .short
+        return dateFormatter.string(from: time)
     }
 }
 
 struct ContentView12_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView122()
+        ContentView12()
     }
 }

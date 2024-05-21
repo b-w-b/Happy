@@ -68,6 +68,8 @@
 		43A444AD2BF7B0FF009F211E /* dynamicassessment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */; };
 		43A444AF2BF7B11C009F211E /* UploadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A444AE2BF7B11C009F211E /* UploadMore.swift */; };
 		43A444B12BF7B152009F211E /* uploadmoreinfo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43A444B02BF7B152009F211E /* uploadmoreinfo.svg */; };
+		43CDB7522BFCE6CC00262286 /* MyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CDB7512BFCE6CC00262286 /* MyDatePicker.swift */; };
+		43CDB7542BFCEAC000262286 /* MyTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CDB7532BFCEAC000262286 /* MyTimePicker.swift */; };
 		43F1FD112BF8B2140093395A /* addsympton_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD102BF8B2140093395A /* addsympton_on.svg */; };
 		43F1FD132BF8C8010093395A /* bloodpressure_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD122BF8C8010093395A /* bloodpressure_on.svg */; };
 		43F1FD152BF8C8B80093395A /* dynamicassessment_on.svg in Resources */ = {isa = PBXBuildFile; fileRef = 43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */; };
@@ -157,6 +159,8 @@
 		43A444AC2BF7B0FF009F211E /* dynamicassessment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment.svg; path = Happy/images/dynamicassessment.svg; sourceTree = SOURCE_ROOT; };
 		43A444AE2BF7B11C009F211E /* UploadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMore.swift; sourceTree = "<group>"; };
 		43A444B02BF7B152009F211E /* uploadmoreinfo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = uploadmoreinfo.svg; path = Happy/images/uploadmoreinfo.svg; sourceTree = SOURCE_ROOT; };
+		43CDB7512BFCE6CC00262286 /* MyDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDatePicker.swift; sourceTree = "<group>"; };
+		43CDB7532BFCEAC000262286 /* MyTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimePicker.swift; sourceTree = "<group>"; };
 		43F1FD102BF8B2140093395A /* addsympton_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addsympton_on.svg; path = Happy/images/addsympton_on.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD122BF8C8010093395A /* bloodpressure_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bloodpressure_on.svg; path = Happy/images/bloodpressure_on.svg; sourceTree = SOURCE_ROOT; };
 		43F1FD142BF8C8B80093395A /* dynamicassessment_on.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dynamicassessment_on.svg; path = Happy/images/dynamicassessment_on.svg; sourceTree = SOURCE_ROOT; };
@@ -293,6 +297,8 @@
 				439F48092BFA353900C5831C /* Space.swift */,
 				439F480B2BFA370D00C5831C /* TextButton.swift */,
 				439F480D2BFA3B5D00C5831C /* ToggleButton.swift */,
+				43CDB7512BFCE6CC00262286 /* MyDatePicker.swift */,
+				43CDB7532BFCEAC000262286 /* MyTimePicker.swift */,
 			);
 			path = RightPanel;
 			sourceTree = "<group>";
@@ -510,12 +516,14 @@
 				431D3A5D2BF77852006E6A82 /* UploadView.swift in Sources */,
 				431D3A6B2BF78455006E6A82 /* Quit.swift in Sources */,
 				43F1FD192BF8D4040093395A /* UploadSuccess.swift in Sources */,
+				43CDB7522BFCE6CC00262286 /* MyDatePicker.swift in Sources */,
 				4303E32E2BF57F020028D8CE /* HappyWoman.swift in Sources */,
 				431D3A732BF79D7E006E6A82 /* MyRecent.swift in Sources */,
 				439F47FA2BF9E21C00C5831C /* sample2.swift in Sources */,
 				43A444A12BF7AF20009F211E /* UploadFeeling.swift in Sources */,
 				431D3A7B2BF79E79006E6A82 /* SmartMonitor.swift in Sources */,
 				43605A372BFB919E000DEE0F /* TagCount.swift in Sources */,
+				43CDB7542BFCEAC000262286 /* MyTimePicker.swift in Sources */,
 				439F480C2BFA370D00C5831C /* TextButton.swift in Sources */,
 				439F48042BFA33DA00C5831C /* Listening.swift in Sources */,
 				439F48062BFA340500C5831C /* DailyLife.swift in Sources */,

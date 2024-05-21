@@ -9,9 +9,12 @@ import SwiftUI
 
 struct SelectBloodPressure: View {
     @State private var showDialog = false
+    @State private var showDatePicker = false
+    @State private var showTimePicker = false
     @State private var highPressure = "120"
     @State private var lowPressure = "80"
-    
+    @State private var datestring = "____-__-__"
+    @State private var timestring = "__:__"
     var body: some View {
         ZStack() {
             VStack(alignment: .leading) {
@@ -25,7 +28,7 @@ struct SelectBloodPressure: View {
                     Text("测量日期")
                         .padding(EdgeInsets(top: 0, leading: 50, bottom: 0, trailing: 0))
                     
-                    Text("____-__-__")
+                    Text(datestring)
                         .font(Font.custom("PingFang SC", size: 18))
                         .tracking(0.72)
                         .foregroundColor(Color(red: 0.19, green: 0.22, blue: 0.24))
@@ -36,12 +39,15 @@ struct SelectBloodPressure: View {
                             RoundedRectangle(cornerRadius: 4)
                                 .inset(by: 0.50)
                                 .stroke(Color(red: 0.49, green: 0.49, blue: 0.49), lineWidth: 0.50)
-                        );
+                        )
+                        .onTapGesture {
+                            showDatePicker.toggle()
+                        }
                 }
                 HStack() {
                     Text("测量时间")
                         .padding(EdgeInsets(top: 0, leading: 50, bottom: 0, trailing: 0))
-                    Text("__:__")
+                    Text(timestring)
                         .font(Font.custom("PingFang SC", size: 18))
                         .tracking(0.72)
                         .lineSpacing(14)
@@ -53,7 +59,10 @@ struct SelectBloodPressure: View {
                             RoundedRectangle(cornerRadius: 4)
                                 .inset(by: 0.50)
                                 .stroke(Color(red: 0.49, green: 0.49, blue: 0.49), lineWidth: 0.50)
-                        );
+                        )
+                        .onTapGesture {
+                            showTimePicker.toggle()
+                        }
                 }
                 HStack() {
                     Text("收缩压    ")
@@ -138,6 +147,16 @@ struct SelectBloodPressure: View {
             }
             if showDialog {
                 CommitSuccess(showDialog: $showDialog)
+                    .frame(width: 300, height: 200)
+                    .transition(.scale)
+            }
+            if showDatePicker {
+                MyDatePicker(isDatePickerVisible: $showDatePicker, dateString: $datestring)
+                    .frame(width: 300, height: 200)
+                    .transition(.scale)
+            }
+            if showTimePicker {
+                MyTimePicker(isDatePickerVisible: $showTimePicker, dateString: $timestring)
                     .frame(width: 300, height: 200)
                     .transition(.scale)
             }
