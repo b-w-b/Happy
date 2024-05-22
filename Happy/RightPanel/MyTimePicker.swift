@@ -16,6 +16,7 @@ struct MyTimePicker: View {
                 dateString = formatTime(selectedTime)
             }
         }
+        .background(.white)
         .padding()
         .cornerRadius(4)
             .overlay(

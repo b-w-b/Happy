@@ -19,7 +19,6 @@ struct ToggleButton: View {
                     isSelected ? Color(red: 0.19, green: 0.55, blue: 0.91)
                     : Color(.gray))
                 .cornerRadius(15)
-                .offset(x: 0, y: 0)
             Rectangle()
                 .foregroundColor(.clear)
                 .frame(width: 24.55, height: 24.55)

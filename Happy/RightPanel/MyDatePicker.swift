@@ -22,13 +22,15 @@ struct MyDatePicker: View {
             Button("完成") {
                 isDatePickerVisible = false
                 let dateFormatter = DateFormatter()
-                       dateFormatter.dateFormat = "yyyy-MM-dd"
+                dateFormatter.dateFormat = "yyyy-MM-dd"
                 dateString = dateFormatter.string(from: selectedDate)
             }
             
             .padding()
-        }.cornerRadius(4)
-            .overlay(
+        }
+        .background(.white)
+        .cornerRadius(4)
+        .overlay(
                 RoundedRectangle(cornerRadius: 4)
                     .inset(by: 0.50)
                     .stroke( Color(red: 0.49, green: 0.49, blue: 0.49), lineWidth: 0.50)
