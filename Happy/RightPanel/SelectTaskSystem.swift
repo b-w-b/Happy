@@ -46,7 +46,7 @@ struct SelectTaskSystem: View {
                                 print("showDatePicker")
                                 showDatePicker.toggle()
                             }
-                            .frame(width: 140)
+                            .frame(width: 150)
                     }
                     .padding(10)
                     .frame(width: 132, height: 34)
